@@ -1,0 +1,11 @@
+name: Run Maven Automation
+on:
+  repository_dispatch:
+    types: [trigger-maven-script]
+jobs:
+  execute-maven:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Maven Script
+        run: mvn clean test
