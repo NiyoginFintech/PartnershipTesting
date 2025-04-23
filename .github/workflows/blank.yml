@@ -1,11 +1,14 @@
-name: Run Maven Automation
+name: Trigger Maven Script
+
 on:
   repository_dispatch:
-    types: [trigger-maven-script]
+    types: [trigger-maven]
+
 jobs:
-  execute-maven:
+  run-maven:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Run Maven Script
-        run: mvn clean test
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Run Maven script
+        run: mvn test -DsuiteXmlFile=testng.xml  # Corrected Maven command
