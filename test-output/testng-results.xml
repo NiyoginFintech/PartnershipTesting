@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-23T11:44:43 IST" name="Default suite" finished-at="2025-04-23T11:44:55 IST" duration-ms="11753">
+  <suite started-at="2025-04-23T15:18:12 IST" name="Suite" finished-at="2025-04-23T15:18:24 IST" duration-ms="12351">
     <groups>
     </groups>
-    <test started-at="2025-04-23T11:44:43 IST" name="Default test" finished-at="2025-04-23T11:44:55 IST" duration-ms="11753">
-      <class name="testPartnership.id.API">
-        <test-method signature="Customeronboarding()[pri:1, instance:testPartnership.id.API@67d48005]" started-at="2025-04-23T11:44:43 IST" name="Customeronboarding" finished-at="2025-04-23T11:44:55 IST" duration-ms="11533" status="PASS">
+    <test started-at="2025-04-23T15:18:12 IST" name="Test" finished-at="2025-04-23T15:18:24 IST" duration-ms="12351">
+      <class name="testPartnership.id.PartnershipAPITesting">
+        <test-method signature="Customeronboarding()[pri:1, instance:testPartnership.id.PartnershipAPITesting@67d48005]" started-at="2025-04-23T15:18:12 IST" name="Customeronboarding" finished-at="2025-04-23T15:18:24 IST" duration-ms="12120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Customeronboarding -->
-        <test-method signature="createloan()[pri:2, instance:testPartnership.id.API@67d48005]" started-at="2025-04-23T11:44:55 IST" name="createloan" finished-at="2025-04-23T11:44:55 IST" duration-ms="165" status="FAIL">
+        <test-method signature="createloan()[pri:2, instance:testPartnership.id.PartnershipAPITesting@67d48005]" started-at="2025-04-23T15:18:24 IST" name="createloan" finished-at="2025-04-23T15:18:24 IST" duration-ms="173" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[1 expectation failed.
@@ -52,7 +52,7 @@ at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
 at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-at testPartnership.id.API.createloan(API.java:62)
+at testPartnership.id.PartnershipAPITesting.createloan(PartnershipAPITesting.java:62)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createloan -->
-      </class> <!-- testPartnership.id.API -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testPartnership.id.PartnershipAPITesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
