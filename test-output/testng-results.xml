@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T14:32:38 IST" name="Command line suite" finished-at="2025-04-28T14:32:52 IST" duration-ms="14352">
+  <suite started-at="2025-05-27T18:59:01 IST" name="Command line suite" finished-at="2025-05-27T18:59:05 IST" duration-ms="3387">
     <groups>
-      <group name="Customeronboarding">
-        <method signature="UCpartner.Customeronboarding()[pri:0, instance:testPartnership.UCpartner@5cdd8682]" name="Customeronboarding" class="testPartnership.UCpartner"/>
-      </group> <!-- Customeronboarding -->
+      <group name="Getmaster">
+        <method signature="Production.Getmasterdata()[pri:0, instance:testPartnership.Production@727803de]" name="Getmasterdata" class="testPartnership.Production"/>
+      </group> <!-- Getmaster -->
     </groups>
-    <test started-at="2025-04-28T14:32:38 IST" name="Command line test" finished-at="2025-04-28T14:32:52 IST" duration-ms="14352">
-      <class name="testPartnership.UCpartner">
-        <test-method signature="Customeronboarding()[pri:0, instance:testPartnership.UCpartner@5cdd8682]" started-at="2025-04-28T14:32:38 IST" name="Customeronboarding" finished-at="2025-04-28T14:32:52 IST" duration-ms="14319" status="PASS">
+    <test started-at="2025-05-27T18:59:01 IST" name="Command line test" finished-at="2025-05-27T18:59:05 IST" duration-ms="3387">
+      <class name="testPartnership.Production">
+        <test-method signature="Getmasterdata()[pri:0, instance:testPartnership.Production@727803de]" started-at="2025-05-27T18:59:01 IST" name="Getmasterdata" finished-at="2025-05-27T18:59:05 IST" duration-ms="3347" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Customeronboarding -->
-        <test-method is-config="true" signature="sendreportmai()[pri:0, instance:testPartnership.UCpartner@5cdd8682]" started-at="2025-04-28T14:32:52 IST" name="sendreportmai" finished-at="2025-04-28T14:32:52 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sendreportmai -->
-      </class> <!-- testPartnership.UCpartner -->
+        </test-method> <!-- Getmasterdata -->
+      </class> <!-- testPartnership.Production -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

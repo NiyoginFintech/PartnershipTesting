@@ -73,6 +73,12 @@
 			<version>1.5.18</version>
 			<scope>compile</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-email -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.6.0</version>
+		</dependency>
 	</dependencies>
 
 	<profiles>
@@ -178,6 +184,7 @@
 					<artifactId>maven-assembly-plugin</artifactId>
 					<version>3.7.1</version>
 				</plugin>
+
 
 				<!-- install phase related -->
 				<plugin>
