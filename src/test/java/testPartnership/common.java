@@ -71,6 +71,7 @@ private static final String nextdate="2025-05-05T00:00:00";
 
    // static String nextDate = getNextDate("2025/04/24", "yyyy/mm/dd");
     static void sendSlackCIF(String response) {
+		System.out.println("Inside sendSlackCIF");
 		String webhookUrl = "https://hooks.slack.com/services/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";
 		String payload = "{\"channel\": \"#notifications\", \"username\": \"Admin\", \"text\": \""+response+"\"}";
 
@@ -90,6 +91,7 @@ private static final String nextdate="2025-05-05T00:00:00";
 			//System.out.println("Response Code: " + r.getCode());
 
 		} catch (Exception e) {
+			System.out.println("error inside sendSlackCIF ", e)
 			e.printStackTrace();
 		}
 	}
